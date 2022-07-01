@@ -1,0 +1,51 @@
+public:: true
+
+- 如果您想更有效地在线阅读并记住您阅读的内容，我强烈建议您使用“稍后阅读”应用程序，它可以让您保存找到的有趣链接。
+- 我喜欢浏览 Reddit、HackerNews 或其他新闻网站上的头条新闻并保存有趣的文章，然后再一次阅读它们，这样效率更高。（这仅在您实际上有一个阅读您保存的链接的习惯时才有效）。另外，您可以将社交媒体订阅为RSS阅读。
+- [Omnivore](https://omnivore.app/) 是一个开源的“稍后阅读”应用程序。
+- 它允许您使用他们的 iOS 应用程序或 Chrome 扩展程序保存链接。您可以在简化的“阅读模式”中阅读文章（我认为这会使大多数内容看起来更漂亮），它还允许您在应用程序中高亮文章的重要部分。
+- 保存文章或高亮文章后，您可以在应用程序或在线查看这些内容。
+- 与许多其他臃肿的“稍后阅读”的应用程序不同，它超级精简。
+- 他与 [Pocket](https://getpocket.com/en/) or [Instapaper](https://www.instapaper.com/) 相似
+- 它还支持一些高级功能：
+	- 它们提供了“标签”的功能，供您搜索分类。如果你喜欢 Logseq，你可能会喜欢用标签和查询来分类你的链接。
+	- 他们提供了一个托管的解决方案，但它是[开源的，所以你可以自己运行它](https://github.com/omnivore-app/omnivore)，如果你愿意的话。 Logseq 也是开源的。您可以知道，无论这些公司发生什么，您都可以永远免费使用这两个应用程序。我保存了很多链接，因此对于基本的链接保存和高亮，永远不必被迁移或被锁定在付费墙后面
+	- 他们有一个漂亮、简单的 GraphQL 库，您可以在 [Omnivore Logeseq 插件](https://github.com/omnivore-app/logseq-omnivore)中使用 或 使用[批量导入/导出工具](https ://github.com/davidohlin/instapaper-to-omnivore-import)
+	- 它允许您生成电子邮件，以便在收到时可以在 [Omnivore](https://omnivore.app/help/newsletters) 中阅读。
+	- 它有一个非常好的Logseq插件
+- # Omnivore 插件
+	- 这就是你的Graph中的样子
+	- ![image.png](../assets/image_1655996417724_0.png)
+	- 它会在您的图表中创建一个新页面`Omnivore`
+	- 每当您按下黄色 Omnivore 按钮时，它都会将此页面与您的 Omnivore 链接和高亮同步。
+	- 它显示了一个很好的链接列表，一个简短的摘录，以及嵌套在下面的所有高亮。
+- # 插件安装指南
+	- 首先注册一个Omnivore帐户，只需访问 https://omnivore.app/
+	- 记住你的 Omnivore 用户名
+	- 在此处生成Omnivore api 密钥。 [https://omnivore.app/settings/api](https://omnivore.app/settings/api)
+	- ![../assets/image_1655996448854_0.png](https://briansunter.com/graph/assets/Screen_Shot_2022-06-23_at_6.23.56_PM_1656033918928_0.png)
+	- 从 marketplace 下载 `logseq-omnivore` [插件](https://github.com/omnivore-app/logseq-omnivore)
+	- 用您之前获得的密钥来更新插件设置
+	- ![image](https://briansunter.com/graph/assets/settings_1656034430430_0.gif)
+	- 单击 Logseq 工具栏上的黄色 Omnivore 按钮。
+- 现在，您保存的所有文章以及来自应用程序和 Chrome 扩展的高亮都显示在名为 Omnivore 的页面上的 Logseq Graph 中。
+- # Omnivore 应用程序
+	- ## Web 应用程序
+		- Web 应用程序简洁明了。
+		- ![image.png](../assets/image_1655996464744_0.png)
+		- Chrome 扩展也简单快速。 浏览器扩展对于 Web 剪辑工具来说是必不可少的。
+		- ![image.png](../assets/image_1655996526621_0.png)
+	- 它有一个很棒的线上阅读模式
+	- ![image.png](../assets/image_1655996551751_0.png)
+	- ## iOS应用程序
+		- iOS 应用程序既简单又出色。 它有一个很好的链接列表模式。
+		- ![image.png](../assets/image_1655996573756_0.png){:height 1557, :width 716}
+		- 它使您可以快速分享链接。 然后它可以让您快速打开Omnivore的阅读模式，或关闭弹出窗口并返回您的原始应用程序。
+		- ![image.png](../assets/image_1655996588464_0.png)
+		- 它还允许您标记链接并按标签搜索。
+		- ![image.png](../assets/image_1655996603073_0.png){:height 1557, :width 716}
+		- 我的新流程是在 inoreader 中从 Reddit、 Hackernews、twitter 和博客中发现内容，然后将其发送给Omnivore进行阅读和高亮。 从那里，链接和高亮会自动出现在我的Logseq Graph中，我可以将它们整合到我的笔记中
+		- ![image.png](../assets/image_1655996615625_0.png)
+- # 结论
+	- 总的来说，我很高兴有一个不错的简单开源的“稍后阅读”应用程序，它与 Logseq 集成。 它支持阅读模式和高亮显示，这真是太棒了，我一直在用。 到目前为止，它对优化我的信息源非常有用。
+	- 去 [Omnivore](https://omnivore.app/) 开始吧！
